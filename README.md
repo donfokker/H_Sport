@@ -1,2 +1,2 @@
-# H+_Sport
+# H+ Sport
 PraktijkWijzer opdracht P10
