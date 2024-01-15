@@ -58,7 +58,7 @@
                   <a class="nav-link" href="comparefood.php"> Compare Foods </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.php">Ask a coach</a>
+                  <a class="nav-link" href="template/contact.php">Ask a coach</a>
                 </li>
               </ul>
               <!-- Search Icon incase you want to use it uncomment this line. -->

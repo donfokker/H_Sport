@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Tropiko</title>
+  <title>H+ Sports</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
@@ -30,14 +30,14 @@
 </head>
 
 <body>
-  <div class="hero_area sub_pages">
+  <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="" /><span>
-              Tropiko
+              H+ Sports
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -52,28 +52,29 @@
                   <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="fruit.php"> Fruits</a>
+                  <a class="nav-link" href="../searchfood.php"> Search Foods</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="service.php"> Services </a>
+                  <a class="nav-link" href="../comparefood.php"> Compare Foods </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.php">Contact us</a>
+                  <a class="nav-link" href="template/contact.php">Ask a coach</a>
                 </li>
               </ul>
-              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+              <!-- Search Icon incase you want to use it uncomment this line. -->
+              <!-- <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form>
+              </form> -->
             </div>
             <div class="quote_btn-container ml-0 ml-lg-4 d-flex justify-content-center">
               <a href="">
-                Get A quote
+                Logout
               </a>
             </div>
           </div>
         </nav>
       </div>
-    </header>
+    </header> 
     <!-- end header section -->
 
   </div>
