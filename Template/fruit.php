@@ -52,7 +52,7 @@
                   <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="fruit.php"> Fruits</a>
+                  <a class="nav-link" href="fruit.php"> Search Foods</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="service.php"> Services </a>
