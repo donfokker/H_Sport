@@ -60,10 +60,10 @@ session_start();
                   <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="fruit.php"> Search Foods</a>
+                  <a class="nav-link" href="searchfood.php"> Search Foods</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="service.php"> Compare Foods </a>
+                  <a class="nav-link" href="comparefood.php"> Compare Foods </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.php">Ask a coach</a>
