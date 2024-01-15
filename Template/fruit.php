@@ -1,11 +1,3 @@
-<?php
-session_start();
-
-    // include("connection.php");
-    // $_SESSION;
-
-?>
-
 <!DOCTYPE html>
 <html>
 
@@ -20,7 +12,7 @@ session_start();
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>H+ Sports</title>
+  <title>Tropiko</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
@@ -38,14 +30,14 @@ session_start();
 </head>
 
 <body>
-  <div class="hero_area">
+  <div class="hero_area sub_pages">
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="" /><span>
-              H+ Sports
+              Tropiko
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -63,20 +55,19 @@ session_start();
                   <a class="nav-link" href="fruit.php"> Search Foods</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="service.php"> Compare Foods </a>
+                  <a class="nav-link" href="service.php"> Services </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.php">Ask a coach</a>
+                  <a class="nav-link" href="contact.php">Contact us</a>
                 </li>
               </ul>
-              <!-- Search Icon incase you want to use it uncomment this line. -->
-              <!-- <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form> -->
+              </form>
             </div>
             <div class="quote_btn-container ml-0 ml-lg-4 d-flex justify-content-center">
               <a href="">
-                Logout
+                Get A quote
               </a>
             </div>
           </div>
@@ -84,122 +75,15 @@ session_start();
       </div>
     </header>
     <!-- end header section -->
-    <!-- slider section -->
-    <section class=" slider_section position-relative">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="slider_item-box">
-              <div class="slider_item-container">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="slider_item-detail">
-                        <div>
-                          <h1>
-                            Welcome<br />
-                            [User_Name]
-                          </h1>
-                          <p>
-                            There are many variations of passages of Lorem
-                            Ipsum available, but the majority have suffered
-                            alteration in some form, by injected humour, or
-                            randomised words which don't look even slightly
-                            believable.
-                          </p>
-                          <div class="d-flex">
-                            <a href="" class="text-uppercase custom_orange-btn mr-3">
-                              Fill in diet log
-                            </a>
-                            <a href="" class="text-uppercase custom_dark-btn">
-                              View diet logs
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="slider_img-box">
-                        <div>
-                          <img src="images/slide-img.png" alt="" class="" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-    </section>
 
-    <!-- end slider section -->
   </div>
 
-  <!-- service section -->
-
-  <section class="service_section layout_padding ">
-    <div class="container">
-      <h2 class="custom_heading">Your progress!</h2>
-      <p class="custom_heading-text">
-        There are many variations of passages of Lorem Ipsum available, but
-        the majority have
-      </p>
-      <div class=" layout_padding2">
-        <div class="card-deck">
-          <div class="card">
-            <img class="card-img-top" src="images/card-item-1.png" alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title">Orange</h5>
-              <p class="card-text">
-                There are many variations of passages of Lorem Ipsum
-                available, but the majority have suffered alteration in some
-                form, by injected humour, or randomised words which don't look
-                even slightly believable.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="images/card-item-2.png" alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title">Grapes</h5>
-              <p class="card-text">
-                There are many variations of passages of Lorem Ipsum
-                available, but the majority have suffered alteration in some
-                form, by injected humour, or randomised words which don't look
-                even slightly believable.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="images/card-item-3.png" alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title">Gauva</h5>
-              <p class="card-text">
-                There are many variations of passages of Lorem Ipsum
-                available, but the majority have suffered alteration in some
-                form, by injected humour, or randomised words which don't look
-                even slightly believable.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="d-flex justify-content-center">
-        <a href="" class="custom_dark-btn">
-          More Details
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- end service section -->
 
   <!-- fruits section -->
 
-  <section class="fruit_section">
+  <section class="fruit_section layout_padding-top">
     <div class="container">
-      <h2 class="custom_heading">Recommended Foods</h2>
+      <h2 class="custom_heading">Fresh Fruits</h2>
       <p class="custom_heading-text">
         There are many variations of passages of Lorem Ipsum available, but
         the majority have
@@ -284,6 +168,144 @@ session_start();
 
   <!-- end fruits section -->
 
+
+  <section class="info_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>
+            Fruits
+          </h5>
+          <ul>
+            <li>
+              randomised
+            </li>
+            <li>
+              words which
+            </li>
+            <li>
+              don't look even
+            </li>
+            <li>
+              slightly
+            </li>
+            <li>
+              believable. If you
+            </li>
+            <li>
+              are going to use
+            </li>
+            <li>
+              a passage of
+            </li>
+            <li>
+              Lorem Ipsum,
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>
+            Services
+          </h5>
+          <ul>
+            <li>
+              randomised
+            </li>
+            <li>
+              words which
+            </li>
+            <li>
+              don't look even
+            </li>
+            <li>
+              slightly
+            </li>
+            <li>
+              believable. If you
+            </li>
+            <li>
+              are going to use
+            </li>
+            <li>
+              a passage of
+            </li>
+            <li>
+              Lorem Ipsum,
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>
+            List
+          </h5>
+          <ul>
+            <li>
+              randomised
+            </li>
+            <li>
+              words which
+            </li>
+            <li>
+              don't look even
+            </li>
+            <li>
+              slightly
+            </li>
+            <li>
+              believable. If you
+            </li>
+            <li>
+              are going to use
+            </li>
+            <li>
+              a passage of
+            </li>
+            <li>
+              Lorem Ipsum,
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <div class="social_container">
+            <h5>
+              Follow Us
+            </h5>
+            <div class="social-box">
+              <a href="">
+                <img src="images/fb.png" alt="">
+              </a>
+
+              <a href="">
+                <img src="images/twitter.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/linkedin.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/instagram.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="subscribe_container">
+            <h5>
+              Subscribe Now
+            </h5>
+            <div class="form_container">
+              <form action="">
+                <input type="email">
+                <button type="submit">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
   <!-- footer section -->
   <section class="container-fluid footer_section">
     <p>
@@ -295,7 +317,34 @@ session_start();
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
-  
+
+  <script>
+    // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+    // Australia.
+    function initMap() {
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 11,
+        center: {
+          lat: 40.645037,
+          lng: -73.880224
+        },
+      });
+
+      var image = 'images/maps-and-flags.png';
+      var beachMarker = new google.maps.Marker({
+        position: {
+          lat: 40.645037,
+          lng: -73.880224
+        },
+        map: map,
+        icon: image
+      });
+    }
+  </script>
+  <!-- google map js -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
+  </script>
+  <!-- end google map js -->
 </body>
 
 </html>
