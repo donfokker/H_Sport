@@ -52,9 +52,6 @@ session_start();
                 <li class="nav-item">
                   <a class="nav-link" href="comparefood.php"> Compare Foods </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="template/contact.php">Ask a coach</a>
-                </li>
               </ul>
               <!-- Search Icon incase you want to use it uncomment this line. -->
               <!-- <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
@@ -62,9 +59,6 @@ session_start();
               </form> -->
             </div>
             <div class="quote_btn-container ml-0 ml-lg-4 d-flex justify-content-center">
-              <a href="">
-                Logout
-              </a>
             </div>
           </div>
         </nav>
