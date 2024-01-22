@@ -13,8 +13,12 @@ session_start();
     <title>Index</title>
 </head>
 <body>
-    <a href="logout.php">Logout</a>
+    <header>
+        <a href="index.php">Home</a>
+        <a href="recordMeal.php">Record</a>
+    </header>
     <h1>This is the indexpage </h1>
+    <h2>This is the indexpage </h2>
     <br>
     Hello, Username.
 </body>
