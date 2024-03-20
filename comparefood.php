@@ -16,14 +16,10 @@ session_start();
     <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
 
-  <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-  <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" />
-  <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
 <body>
@@ -56,10 +52,6 @@ session_start();
                   <a class="nav-link" href="template/contact.php">Ask a coach</a>
                 </li>
               </ul>
-              <!-- Search Icon incase you want to use it uncomment this line. -->
-              <!-- <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form> -->
             </div>
             <div class="quote_btn-container ml-0 ml-lg-4 d-flex justify-content-center">
               <a href="">
@@ -108,8 +100,6 @@ session_start();
 
     function compareFoodInfo($data1, $data2)
     {
-        // Voeg hier je vergelijkingslogica toe
-        // Je kunt bijvoorbeeld de voedingsinformatie van beide producten vergelijken en de resultaten weergeven
         echo "<div class='food-container'>";
         echo "<div class='food-info'>";
         echo "<h2>Voedsel 1</h2>";

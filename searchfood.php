@@ -8,14 +8,10 @@
     <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
 
-  <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-  <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" />
-  <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
 <body>
@@ -48,10 +44,6 @@
                   <a class="nav-link" href="contact.php">Ask a coach</a>
                 </li>
               </ul>
-              <!-- Search Icon incase you want to use it uncomment this line. -->
-              <!-- <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form> -->
             </div>
             <div class="quote_btn-container ml-0 ml-lg-4 d-flex justify-content-center">
               <a href="">
@@ -80,16 +72,12 @@
             $app_id = 'a3e54bf3';
             $app_key = 'a65f889508bc702ec27a1044bd5fba6b';
 
-            // Bouw de API-url op
             $api_url = "https://api.edamam.com/api/food-database/v2/parser?ingr=$food_query&app_id=$app_id&app_key=$app_key";
 
-            // Haal gegevens op van de API
             $json_data = file_get_contents($api_url);
             $data = json_decode($json_data, true);
 
-            // Controleer of de API-oproep succesvol was
             if (isset($data['hints'][0]['food']['label'])) {
-                // Toon de nuttige informatie
                 $food_label = $data['hints'][0]['food']['label'];
                 $nutrients = $data['hints'][0]['food']['nutrients'];
 

@@ -49,8 +49,6 @@ session_start();
 }
 function compareFoodInfo0($data1)
 {
-    // Voeg hier je vergelijkingslogica toe
-    // Je kunt bijvoorbeeld de voedingsinformatie van beide producten vergelijken en de resultaten weergeven
     echo "<div class='food-container'>";
     echo "<div class='food-info'>";
     echo "<h2>Voedsel 1</h2>";
@@ -103,7 +101,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $data1 = json_decode($json_data1, true);
 
     if (isset($_POST['compareSubmit'])) {
-        // Save the selected item to session
         saveSelectedItemToSession($data1);
     }
 }
@@ -127,8 +124,6 @@ function displayFoodInfo($data, $listId)
 
 function compareFoodInfo1($data1)
 {
-    // Voeg hier je vergelijkingslogica toe
-    // Je kunt bijvoorbeeld de voedingsinformatie van beide producten vergelijken en de resultaten weergeven
     echo "<div class='food-container'>";
     echo "<div class='food-info'>";
     echo "<h2>Voedsel 1</h2>";
@@ -142,7 +137,6 @@ function saveSelectedItemToSession($data)
         $food_label = $data['hints'][0]['food']['label'];
         $nutrients = $data['hints'][0]['food']['nutrients'];
 
-        // Save the selected item to session
         $_SESSION['selectedItems'][] = array('foodName' => $food_label, 'nutrients' => $nutrients);
     }
 }

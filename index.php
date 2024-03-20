@@ -2,36 +2,27 @@
 <html>
 
 <head>
-  <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
 
   <title>H+ Sports</title>
 
-  <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
 
-  <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-  <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" />
-  <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
 
 <body>
   <div class="hero_area">
-    <!-- header section strats -->
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
@@ -61,10 +52,6 @@
                   <a class="nav-link" href="template/contact.php">Ask a coach</a>
                 </li>
               </ul>
-              <!-- Search Icon incase you want to use it uncomment this line. -->
-              <!-- <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form> -->
             </div>
             <div class="quote_btn-container ml-0 ml-lg-4 d-flex justify-content-center">
               <a href="">
@@ -75,8 +62,6 @@
         </nav>
       </div>
     </header>
-    <!-- end header section -->
-    <!-- slider section -->
     <section class=" slider_section position-relative">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -125,10 +110,8 @@
       </div>
     </section>
 
-    <!-- end slider section -->
   </div>
 
-  <!-- service section -->
 
   <section class="service_section layout_padding ">
     <div class="container">
@@ -185,9 +168,6 @@
     </div>
   </section>
 
-  <!-- end service section -->
-
-  <!-- fruits section -->
 
   <section class="fruit_section">
     <div class="container">
@@ -274,16 +254,12 @@
     </div>
   </section>
 
-  <!-- end fruits section -->
-
-  <!-- footer section -->
   <section class="container-fluid footer_section">
     <p>
       Copyright &copy; 2019 All Rights Reserved By
       <a href="https://html.design/">Free Html Templates</a>
     </p>
   </section>
-  <!-- footer section -->
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
