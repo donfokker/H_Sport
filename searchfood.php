@@ -49,7 +49,7 @@
       </div>
     </header>
 
-<h1>H+Sport | Voedingsinformatie Zoeken</h1>
+<h1>H+ Sport | Voedingsinformatie Zoeken</h1>
 
 <div class="food-container">
     <div class="food-info">
