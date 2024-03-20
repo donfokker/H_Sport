@@ -40,15 +40,9 @@
                 <li class="nav-item">
                   <a class="nav-link" href="comparefood.php"> Compare Foods </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.php">Ask a coach</a>
-                </li>
               </ul>
             </div>
             <div class="quote_btn-container ml-0 ml-lg-4 d-flex justify-content-center">
-              <a href="">
-                Logout
-              </a>
             </div>
           </div>
         </nav>
